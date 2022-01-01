@@ -1,8 +1,8 @@
-package Backjoon;
+package Baekjoon;
 
 import java.util.Arrays;
 
-public class Backjoon4673 {
+public class Baeckjoon4673 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Boolean[] arr = new Boolean[10000];
