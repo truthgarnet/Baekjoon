@@ -30,11 +30,9 @@ public class Baekjoon1316 {
 		int arrayCnt = 0;
 		int result = 0;
 		
-		for(int i = 1; i < check.length; i++) {
-			
+		for(int i = 1; i < check.length; i++) {		
 			if(check[i-1].equals(check[i])){
-				cnt++;
-				
+				cnt++;		
 			}
 		}
 		
