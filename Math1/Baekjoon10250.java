@@ -18,8 +18,8 @@ public class Baekjoon10250 {
 	public static void hotel(int h, int w, int n) {
 		int arr[][] = new int[h+1][w+1];
 		int cnt = 0;
-		for(int i = 1; i <= h; i++) {
-			for(int j = 1; j <= w; j++) {
+		for(int i = 1; i <= w; i++) {
+			for(int j = 1; j <= h; j++) {
 				arr[i][j] = i;
 				cnt++;
 				if(n == cnt) {
